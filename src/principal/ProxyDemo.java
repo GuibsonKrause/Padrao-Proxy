@@ -19,11 +19,11 @@ public class ProxyDemo
       {
         AudioIF meuAudio = new ProxyAudio("meuArquivo.mp3 ");
         
-        meuAudio.play();
+        meuAudio.play(); // Primeira instância de TipoRealAudio
           System.out.println();
           
           
-          meuAudio.play();
+          meuAudio.play(); // Classe já instanciada. Tratamento do If
           System.out.println();
       }
   }
