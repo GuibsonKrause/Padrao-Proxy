@@ -34,5 +34,8 @@ public class ProxyAudio implements AudioIF
               System.out.println("Recuperando instância anteriormente criada"
                       + "de TipoRealAudio");
           }
+        
+        meuAudio.play();
+        
       }
   }
