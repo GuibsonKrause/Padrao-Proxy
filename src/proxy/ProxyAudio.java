@@ -9,11 +9,11 @@ package proxy;
  *
  * @author gkrause
  */
-public class ProxyAudio implements AudioIF
+public class ProxyAudio implements AudioIF // Também implementa a interface AudioIF
   {
 
     private TipoRealAudio meuAudio;
-    private String nomeArquivo;
+    private final String nomeArquivo;
 
     public ProxyAudio(String nomeArquivo)
       {

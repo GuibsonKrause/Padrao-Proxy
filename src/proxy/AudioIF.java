@@ -11,5 +11,5 @@ package proxy;
  */
 public interface AudioIF
   {
-    public void play();
+    public void play(); // Metodo que está escondito do usuário
   }
