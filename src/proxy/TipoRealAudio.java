@@ -9,9 +9,9 @@ package proxy;
  *
  * @author gkrause
  */
-public class TipoRealAudio implements AudioIF
+public class TipoRealAudio implements AudioIF // Classe concreta que também implementa de AudioIF
   {
-    private String nomeArquivo;
+    private final String nomeArquivo; // Nome do arquivo que vai dar o play
     
     public TipoRealAudio(String nomeArquivo)
       {
